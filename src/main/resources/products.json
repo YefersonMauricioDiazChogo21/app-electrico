@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"nombre": "Computador",
+		"precio": 2000
+	},
+	{
+		"id": 2,
+		"nombre": "Celular",
+		"precio": 2500
+	},
+	{
+		"id": 3,
+		"nombre": "Portatil",
+		"precio": 60000
+	},
+	{
+		"id": 4,
+		"nombre": "Nevera",
+		"precio": 202000
+	},
+	{
+		"id": 5,
+		"nombre": "Televisor",
+		"precio": 90000
+	},
+	{
+		"id": 6,
+		"nombre": "Carro",
+		"precio": 9000000
+	},
+	{
+		"id": 7,
+		"nombre": "Moto",
+		"precio": 23400000
+	},
+	{
+		"id": 8,
+		"nombre": "Karol",
+		"precio": 2500000000
+	}
+]
