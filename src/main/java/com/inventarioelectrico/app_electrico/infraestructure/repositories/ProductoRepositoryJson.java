@@ -1,4 +1,4 @@
-package com.inventarioelectrico.app_electrico.repositories;
+package com.inventarioelectrico.app_electrico.infraestructure.repositories;
 
 import java.io.IOException;
 import java.util.Arrays;

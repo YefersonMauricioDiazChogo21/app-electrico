@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import com.inventarioelectrico.app_electrico.domain.entity.Producto;
-import com.inventarioelectrico.app_electrico.repositories.ProductoRepository;
+import com.inventarioelectrico.app_electrico.infraestructure.repositories.ProductoRepository;
 
 @Service
 public class IProductoService implements ProductoService{

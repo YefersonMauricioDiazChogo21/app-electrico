@@ -1,4 +1,4 @@
-package com.inventarioelectrico.app_electrico.application.controllers;
+package com.inventarioelectrico.app_electrico.infraestructure.controllers;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.inventarioelectrico.app_electrico.domain.entity.Producto;
-import com.inventarioelectrico.app_electrico.repositories.IProductoRepository;
+import com.inventarioelectrico.app_electrico.infraestructure.repositories.IProductoRepository;
 
 
 
