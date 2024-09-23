@@ -1,4 +1,4 @@
-package com.inventarioelectrico.app_electrico.domain.service;
+package com.inventarioelectrico.app_electrico.application.services;
 
 import java.util.List;
 import java.util.stream.Collectors;

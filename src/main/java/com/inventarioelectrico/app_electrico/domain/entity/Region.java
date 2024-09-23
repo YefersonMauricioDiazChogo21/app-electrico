@@ -4,24 +4,25 @@ import java.util.List;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name= "countries")
-public class Country {
+@Table(name= "regions")
+public class Region {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
     @Column(length=20,nullable=true)
     private String name;
     
-    @OneToMany(mappedBy ="countries")
-    private List<Region> regions;
-    
+    @ManyToOne
+    private Country countries;
+
+    @OneToMany(mappedBy="regions")
+    private List<City> cities;
+
 }
